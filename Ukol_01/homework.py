@@ -60,4 +60,4 @@ def delete_user(username, password):
 #register('test4', 'heslo', 'heslo')
 #print(login('tes', 'heslo'))
 #delete_user('test4','heslo')
-change_password('test2', 'heslo2','heslo1','heslo1')
+change_password('test2', 'heslo1','heslo11','heslo11')
