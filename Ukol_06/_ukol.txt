@@ -1,0 +1,46 @@
+Prostudujte python dict
+https://www.learnbyexample.org/python-dictionary/
+
+
+Jako cvičení máte zadaný dict countries:
+
+countries = {
+    "CZ": "Česko",
+    "SK": "Slovensko",
+    "DE": "Německo",
+    "AT": "Rakousko",
+    "PL": "Polsko",
+}
+
+
+z tohoto dict vytvořte 2 nové dict:
+
+1) převtraťte klíče a hodnoty v novém dict cities:
+countries_name = {
+    "Česko": "CZ",
+    "Slovensko": "SK",
+    "Německo": "DE",
+    "Rakousko": "AT",
+    "Polsko": "PL",
+}
+
+postup:
+vytvořte nové dict countries_name
+ve for cyklu projděte dict countries (klíče a hodnoty)
+pro countries_name nastavte klíč z hodnoty a hodnotu z klíče
+
+
+2) zjistete počet znaků pro každý stát
+countries_len = {
+    "CZ": 5,
+    "SK": 9,
+    "DE": 7,
+    "AT": 8,
+    "PL": 6,
+}
+
+postup:
+vytvořte nové dict countries_len
+ve for cyklu projděte dict countries (klíče a hodnoty)
+pro countries_len nastavte klíč s hodnotou len z procházené hodnoty
+

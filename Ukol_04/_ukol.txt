@@ -1,0 +1,8 @@
+Vytvořte soubor 04_file.py
+
+od uživatele pomocí input vezměte hodnotu
+a uložte do souboru 04_file.txt
+
+pokud se script spustí vícekrát, hodnoty tam zůstanou
+- použivejte tedy append mode='a'
+
