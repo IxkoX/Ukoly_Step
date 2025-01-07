@@ -10,7 +10,8 @@ countries = {
 }
 
 # 1) Převrácení klíčů a hodnot
-countries_name = {value: key for key, value in countries.items()}
+#countries_name = {value: key for key, value in countries.items()}
+countries_name = {countries[key]: key for key in countries}
 
 # 2) Zjištění počtu znaků pro každý stát
 countries_len = {key: len(value) for key, value in countries.items()}
