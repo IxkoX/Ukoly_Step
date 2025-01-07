@@ -1,3 +1,5 @@
+# 11_bank_account.py
+
 class BankAccount:
     def __init__(self, account_number, owner, balance=0):
         """
@@ -42,7 +44,7 @@ class BankAccount:
         print(f"Číslo účtu: {self.account_number}, Majitel: {self.owner}, Zůstatek: {self.balance}.")
 
 
-# Příklad použití
+# Použití
 if __name__ == "__main__":
     account = BankAccount("123456789", "Jan Novák", 1000)
     account.print_balance()
