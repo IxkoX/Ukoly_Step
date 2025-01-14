@@ -52,7 +52,20 @@ class Morse:
     
     def decode(self, morse):
         """ implementuj tuto metodu, decode znamená dekódovat """
-        return ' '.join(''.join(alphabet_reverse[code] for code in word.split() if code in alphabet_reverse) for word in morse.split('   '))
+        #return ' '.join(''.join(alphabet_reverse[code] for code in word.split() if code in alphabet_reverse) for word in morse.split('   '))
+        
+        # Rozdělení Morseova textu na slova
+        slova = morse.split('   ')
+
+        # Převod každého slova z Morseova kódu do běžného textu
+        prevedena_slova = []
+        for word in slova:
+            znaky = [alphabet_reverse[code] for code in word.split() if code in alphabet_reverse]
+            prevedena_slova.append(''.join(znaky))
+
+        # Spojení slov zpět do textu
+        vysledek = ' '.join(prevedena_slova)
+        return vysledek
 
 
 

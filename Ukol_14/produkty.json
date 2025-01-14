@@ -1,0 +1,212 @@
+[
+    {
+        "nazev": "Medvídek Pú",
+        "skladem": 10,
+        "cena": 350,
+        "kategorie": "Plyšáci",
+        "znacka": "Disney"
+    },
+    {
+        "nazev": "Myšák Mickey",
+        "skladem": 5,
+        "cena": 400,
+        "kategorie": "Plyšáci",
+        "znacka": "Disney"
+    },
+    {
+        "nazev": "Pejsek Fluffy",
+        "skladem": 8,
+        "cena": 250,
+        "kategorie": "Plyšáci",
+        "znacka": "Disney"
+    },
+    {
+        "nazev": "Kočička Kitty",
+        "skladem": 12,
+        "cena": 300,
+        "kategorie": "Plyšáci",
+        "znacka": "Disney"
+    },
+    {
+        "nazev": "Sovička Ouki",
+        "skladem": 7,
+        "cena": 320,
+        "kategorie": "Plyšáci",
+        "znacka": "Disney"
+    },
+    {
+        "nazev": "Zajíček Hopík",
+        "skladem": 15,
+        "cena": 280,
+        "kategorie": "Plyšáci",
+        "znacka": "Disney"
+    },
+    {
+        "nazev": "Tučňák Pingo",
+        "skladem": 4,
+        "cena": 340,
+        "kategorie": "Plyšáci",
+        "znacka": "Disney"
+    },
+    {
+        "nazev": "Panda Mimi",
+        "skladem": 9,
+        "cena": 370,
+        "kategorie": "Plyšáci",
+        "znacka": "Disney"
+    },
+    {
+        "nazev": "Žirafka Lili",
+        "skladem": 6,
+        "cena": 330,
+        "kategorie": "Plyšáci",
+        "znacka": "Disney"
+    },
+    {
+        "nazev": "Sloník Eli",
+        "skladem": 3,
+        "cena": 390,
+        "kategorie": "Plyšáci",
+        "znacka": "Disney"
+    },
+    {
+        "nazev": "Lego City",
+        "skladem": 20,
+        "cena": 800,
+        "kategorie": "Lego",
+        "znacka": "LEGO"
+    },
+    {
+        "nazev": "Lego Friends",
+        "skladem": 15,
+        "cena": 750,
+        "kategorie": "Lego",
+        "znacka": "LEGO"
+    },
+    {
+        "nazev": "Lego Technic",
+        "skladem": 10,
+        "cena": 1200,
+        "kategorie": "Lego",
+        "znacka": "LEGO"
+    },
+    {
+        "nazev": "Lego Star Wars",
+        "skladem": 8,
+        "cena": 1500,
+        "kategorie": "Lego",
+        "znacka": "LEGO"
+    },
+    {
+        "nazev": "Lego Harry Potter",
+        "skladem": 12,
+        "cena": 1400,
+        "kategorie": "Lego",
+        "znacka": "LEGO"
+    },
+    {
+        "nazev": "Lego Duplo",
+        "skladem": 25,
+        "cena": 500,
+        "kategorie": "Lego",
+        "znacka": "LEGO"
+    },
+    {
+        "nazev": "Lego Creator",
+        "skladem": 14,
+        "cena": 950,
+        "kategorie": "Lego",
+        "znacka": "LEGO"
+    },
+    {
+        "nazev": "Lego Ninjago",
+        "skladem": 18,
+        "cena": 1100,
+        "kategorie": "Lego",
+        "znacka": "LEGO"
+    },
+    {
+        "nazev": "Lego Architecture",
+        "skladem": 6,
+        "cena": 1600,
+        "kategorie": "Lego",
+        "znacka": "LEGO"
+    },
+    {
+        "nazev": "Lego Marvel",
+        "skladem": 9,
+        "cena": 1300,
+        "kategorie": "Lego",
+        "znacka": "LEGO"
+    },
+    {
+        "nazev": "Hot Wheels Sport",
+        "skladem": 30,
+        "cena": 120,
+        "kategorie": "Autíčka",
+        "znacka": "Hot Wheels"
+    },
+    {
+        "nazev": "Hot Wheels SUV",
+        "skladem": 20,
+        "cena": 150,
+        "kategorie": "Autíčka",
+        "znacka": "Hot Wheels"
+    },
+    {
+        "nazev": "Hot Wheels Monster Truck",
+        "skladem": 10,
+        "cena": 250,
+        "kategorie": "Autíčka",
+        "znacka": "Hot Wheels"
+    },
+    {
+        "nazev": "Hot Wheels Retro",
+        "skladem": 12,
+        "cena": 200,
+        "kategorie": "Autíčka",
+        "znacka": "Hot Wheels"
+    },
+    {
+        "nazev": "Hot Wheels Off-Road",
+        "skladem": 8,
+        "cena": 180,
+        "kategorie": "Autíčka",
+        "znacka": "Hot Wheels"
+    },
+    {
+        "nazev": "Hot Wheels Drift",
+        "skladem": 15,
+        "cena": 170,
+        "kategorie": "Autíčka",
+        "znacka": "Hot Wheels"
+    },
+    {
+        "nazev": "Hot Wheels Police",
+        "skladem": 22,
+        "cena": 190,
+        "kategorie": "Autíčka",
+        "znacka": "Hot Wheels"
+    },
+    {
+        "nazev": "Hot Wheels Fire Truck",
+        "skladem": 14,
+        "cena": 220,
+        "kategorie": "Autíčka",
+        "znacka": "Hot Wheels"
+    },
+    {
+        "nazev": "Hot Wheels Ambulance",
+        "skladem": 18,
+        "cena": 210,
+        "kategorie": "Autíčka",
+        "znacka": "Hot Wheels"
+    },
+    {
+        "nazev": "Hot Wheels Classic",
+        "skladem": 25,
+        "cena": 160,
+        "kategorie": "Autíčka",
+        "znacka": "Hot Wheels"
+    }
+]
