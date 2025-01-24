@@ -1,0 +1,17 @@
+
+def is_teenager(age):
+    """ vrací zda je teenager podle age """
+
+def get_upper_chars(text):
+    """ z textu vrací pouze znaky, které jsou velkými písmeny """
+    """ např: Ahoj jsem teď v Praze -> vrátí pouze AP """
+
+
+vytvořte test pro tyto 2 funkce
+otestujte mezní a specifické hodnoty, funkce NE-implementujte
+jste v roli vývojáře/řky testů
+
+
+do souborů:
+15_is_teenager.py
+15_get_upper_chars.py

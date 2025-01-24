@@ -1,0 +1,24 @@
+v prokejtu test_project co používáme na hodině
+vytvořte stránku na cestě
+/age/
+
+bude tam vstupní políčko a tlačítko pro potvrzení
+
+do políčka uživatel zadá rok narození
+po potvrzení se mu zobrazí věk
+ošetřete jak stranu klienta, tak i logiku na serveru
+
+např zadá 1990
+
+na stránce po potvrzení se zobrazí
+"Je vám přibližně 35 let"
+
+viz obrazek age.PNG
+
+
+Obrázky z hodiny
+https://www.figma.com/board/SrrKiOKcfDVlwpccqt0eaf/
+
+
+
+

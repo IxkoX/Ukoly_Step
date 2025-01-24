@@ -1,0 +1,20 @@
+1. přečtěte si zde něco o Django
+https://cs.wikipedia.org/wiki/Django
+
+
+2. vytvořte
+v naší testovací app myapp vytvořte view time_page
+které bude na adrese /time/
+
+Stránka by měla zobrazovat aktuální datum a čas
+styl zobrazení nechaám na vás, ukázka v time_page.png
+
+instrukce jsou v
+myapp/views.py řádek 20
+_project/urls.py řádek 27
+
+
+PS:
+1) otevřít si projekt ve VS Code
+2) nezapomeňte si spustit server pomocí
+python manage.py runserver

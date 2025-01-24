@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Jablka",
+        "price": 29.9,
+        "quantity": 1,
+        "category": "Ovoce"
+    },
+    {
+        "id": 2,
+        "name": "Mléko",
+        "price": 19.9,
+        "quantity": 0,
+        "category": "Mléčné výrobky"
+    },
+    {
+        "id": 3,
+        "name": "Chléb",
+        "price": 79.0,
+        "quantity": 70,
+        "category": "Pečivo"
+    },
+    {
+        "id": 4,
+        "name": "Máslo",
+        "price": 54.9,
+        "quantity": 30,
+        "category": "Mléčné výrobky"
+    },
+    {
+        "id": 5,
+        "name": "Těstoviny",
+        "price": 24.9,
+        "quantity": 1,
+        "category": "Potraviny"
+    },
+    {
+        "id": 6,
+        "name": "Kuřecí prsa",
+        "price": 129.9,
+        "quantity": 1,
+        "category": "Maso"
+    },
+    {
+        "id": 7,
+        "name": "Rajčata",
+        "price": 44.9,
+        "quantity": 1,
+        "category": "Zelenina"
+    },
+    {
+        "id": 8,
+        "name": "Papriky",
+        "price": 89.0,
+        "quantity": 120,
+        "category": "zelenina"
+    }
+]
