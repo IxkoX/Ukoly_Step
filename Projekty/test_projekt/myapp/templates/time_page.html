@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aktuální čas</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #9b9a3779;
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 7rem;
+            color: #0b5ff0;
+        }
+
+        h2 {
+            font-size: 6rem;
+            color: #0b5ff0;
+            align-items: center;
+        }
+    </style>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const time = now.toLocaleTimeString('cs-CZ', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            document.getElementById('time').textContent = time;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Aktualizace času každou sekundu
+            updateClock();
+            setInterval(updateClock, 1000);
+        });
+    </script>
+</head>
+
+<body>
+    <div>
+        <h1>{{ date }}</h1>
+        <h2 id="time">{{ time }}</h2>
+    </div>
+</body>
+
+</html>

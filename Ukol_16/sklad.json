@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Jablka",
         "price": 29.9,
-        "quantity": 1,
+        "quantity": 50,
         "category": "Ovoce"
     },
     {
@@ -31,7 +31,7 @@
         "id": 5,
         "name": "Těstoviny",
         "price": 24.9,
-        "quantity": 1,
+        "quantity": 0,
         "category": "Potraviny"
     },
     {
@@ -52,7 +52,7 @@
         "id": 8,
         "name": "Papriky",
         "price": 89.0,
-        "quantity": 120,
+        "quantity": 90,
         "category": "zelenina"
     }
 ]

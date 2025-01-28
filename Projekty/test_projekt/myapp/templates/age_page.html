@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <title>Věk</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Zjistěte svůj věk</h1>
+        <form method="POST">
+            {% csrf_token %}
+            <label for="birth_year">Zadejte rok narození:</label>
+            <input type="number" id="birth_year" name="birth_year" required placeholder="Např. 1990">
+            <button type="submit">Potvrdit</button>
+        </form>
+
+        {% if error %}
+        <p style="color: red;">{{ error }}</p>
+        {% endif %}
+        {% if result %}
+        <p style="font-weight: bold;">{{ result }}</p>
+        {% endif %}
+    </main>
+</body>
+
+</html>
